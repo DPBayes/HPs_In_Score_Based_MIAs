@@ -2,7 +2,7 @@
 
 ### DEPENDENCIES
 
-The following modules are required to run our code:
+The following modules are required to run the code:
  * Python 3.8 or greater
  * PyTorch 1.11 or greater (https://pytorch.org/)
  * Opacus 1.3 or greater (https://opacus.ai/#quickstart)
