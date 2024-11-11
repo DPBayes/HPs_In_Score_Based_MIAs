@@ -83,7 +83,7 @@ For example, ```python3 src/build_mia_grid_film_td.py -- start_data_split 0 --st
 
 Once we have the logits for samples in $\ D_T\$ for the models in the MIA Grid:
 * Calculate the LiRA scores of samples using ```python3 src/run_lira.py``` when the target architecture is known and can be used to train the shadow models.
-* To simulate LiRA in the Black-Box setting, use ```python3 src/run_lira_bb.py``` where the arguments ```--target_stats_dir``` and ```--shadow_stats_dir``` should point to the logits collected from models trained with the target architecture and the shadow architecture respectively on same data splits sampled from $\ D_T\$.
+* To simulate LiRA in the Black-Box setting, use ```python3 src/run_lira_bb.py``` where the arguments ```--target_stats_dir``` and ```--shadow_stats_dir``` should point to the logits collected from models trained with the target architecture and the shadow architecture respectively on same data splits subsampled from $\ D_T\$.
 
 ### EMPIRICAL PRIVACY LEAKAGE DUE TO HPO (Section VI & VII)
 
