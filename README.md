@@ -71,7 +71,7 @@ To create the MIA Grid follow the given steps:
 
 * Use ```python3 src/build_mia_grid_head_td.py``` or ```python3 src/build_mia_grid_film_td.py``` without the flag  ```--tune``` to train the models for the MIA grid such that $\ \mathcal{M}_{D_i,\eta_j} \leftarrow \texttt{TRAIN} (D_i, \eta_j)\$.
 
-**NOTE:** Following additional arguments in the code to build the MIA Grid will allow the users to collect optimal hyperparameters/data set and train models for the MIA Grid in parts when limited compute is available to run the code:
+**NOTE:** Following additional arguments are provided in the code to build the MIA Grid which allow the users to collect optimal hyperparameters/data set and train models for the MIA Grid in parts when limited compute is available to run the code:
 
 ```
 --start_data_split
